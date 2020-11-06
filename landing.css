@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: grey;
+    background-image: url(baru.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;    
+    overflow: hidden;
+    background-blend-mode: overlay;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 40px;
+    background: linear-gradient(to top, transparent, rgba(0,0,0,0,6));
+}
+header img{
+    width: 200px;
+    float: left;
+    position: relative;
+}
+.menu{
+    background-color: rgb(16, 25, 148);
+    color: white;
+    text-decoration: none;
+
+    border-radius: 100px;
+    width: 85%;
+    float: right;
+    margin-top: 65px;
+}
+td{
+    padding: 24px;
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+    margin: 0 35px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+td a{
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+    margin: 0 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.mid{
+    max-width: 55%;
+    position: absolute;
+    top: 220px;
+    padding: 200px 80px 0;
+    color: black;
+}
+.mid h1{
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.mid p{
+    font-size: 20px;
+    padding: 25px 0;
+    font-weight: 300;
+    color: rgb(255, 254, 254);
+}
+.mid .button{
+    margin-top: 45px;
+}
+.mid a{
+    display: inline-block;
+    padding: 15px 45px;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+}
+
+.mid a.color1{
+    background-color: rgb(173, 173, 3);
+}
